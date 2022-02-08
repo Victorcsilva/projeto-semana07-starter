@@ -1,0 +1,97 @@
+@import '_variables','_styles';
+.about {
+    padding: 0 16px 64px 16px;
+    &-card {
+      color: white;
+      padding: 40px;
+      border-radius: 8px;
+      flex-direction: column;
+      @media (min-width: 992px) {
+        flex-direction: row;
+        gap: 32px;
+        max-width: 927px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+  
+      &-img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        @media (min-width: 992px) {
+          max-width: 426px;
+        }
+      }
+      &-title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+        @media (min-width: 992px) {
+          font-size: 48px;
+          line-height: 57px;
+          font-weight: 500;
+          margin-bottom: 33px;
+          margin-top: 0px;
+        }
+      }
+      &-description {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.44px;
+        margin-bottom: 16px;
+        @media (min-width: 992px) {
+          margin-bottom: 23px;
+        }
+      }
+    }
+    
+  }
+  .habilidades {
+    height: 848;
+    width: 1440;
+    padding: 0 16px 64px 16px;
+      color: white;
+      padding: 40px;
+      border-radius: 8px;
+    @media (min-width: 992px) {
+      flex-direction: row;
+        gap: 32px;
+        max-width: 927px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
+
+  .ret1{
+    width: 354px;
+    height: 298px;
+    background-color: #1C1E22    ;
+    padding: 16px 64px 16px;
+    border-radius:8px;
+    margin: 30px;
+    align-items:center;
+    @media (min-width: 992px) {
+      width: 400px;
+      height: 400px;
+      align-items: flex-start;
+      gap: 32px;
+      max-width: 927px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .my_text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .text_des{
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 20px;
+    color: aliceblue;
+  }
