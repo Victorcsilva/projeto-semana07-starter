@@ -21,6 +21,12 @@
         border-radius: 8px;
         @media (min-width: 992px) {
           max-width: 426px;
+          height: 401px;
+          width: 328px;
+          left: 16.5px;
+          top: 32px;
+        border-radius: 8px;
+
         }
       }
       &-title {
@@ -94,6 +100,11 @@
   .text_des{
     font-family: DM Sans;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     color: aliceblue;
+    position: static;
+   @media (min-width: 992px) {
+      position: static;
+  
+    }
   }

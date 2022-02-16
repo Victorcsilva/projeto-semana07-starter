@@ -41,7 +41,7 @@
       margin-right: auto;
     }
     
-  }
+}
   .text_intro{
     height: 48px;
     width: 328px;
@@ -86,7 +86,7 @@
    left: 24px;
     top: 474px;
    border-radius: 8px;
-padding: 16px, 8px, 16px, 8px;
+  padding: 16px, 8px, 16px, 8px;
 
     }
 
@@ -103,28 +103,10 @@ padding: 16px, 8px, 16px, 8px;
     }
 
     }
-    .campo_nome{
-      height: 60px;
-      width: 280px;
-      border-radius: 8px;
-     margin-left: 24px;
-     margin-top: 24px;
-     background: #1C1E22;
-     border-color:#FFFFFF;
-     @media (min-width: 992px) {
-      height: 60px;
-      width: 399px;
-      left: 0px;
-      top: 36px;
-      border-radius: 8px;
-      padding: 16px, 20px, 16px, 20px;
 
-      }
-    }
      
     }
-
-    .campo_email{
+    .campo{
       
       height: 60px;
       width: 280px;
@@ -174,3 +156,7 @@ padding: 16px, 8px, 16px, 8px;
       }
     }
   }
+   .container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+   }
