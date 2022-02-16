@@ -1,0 +1,176 @@
+@import '_variables', '_styles';
+
+.my-info{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  @media (min-width: 992px) {
+    height: 200px;
+    margin-left: 602,50px;
+  }
+
+  &-title {
+      margin-top: 93PX;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    @media (min-width: 992px) {
+      font-size: 60px;
+   
+    }
+
+  }
+
+
+}
+.text_des{
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: aliceblue;
+    letter-spacing: 0.1px;
+    align-self: center;
+    @media (min-width: 992px) {
+      font-size: 16px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  }
+  .text_intro{
+    height: 48px;
+    width: 328px;
+    align-items: center;  
+    margin-left: 16px;
+    margin-right: 16px;   
+    @media (min-width: 992px) {
+      height: 20px;
+      width: 706px;
+      margin-left: 367px;
+
+    }
+  }
+  .form_div{
+    width: 328px;
+    height: 546px;
+    top: 160px;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color:#26292D;
+    @media (min-width: 992px) {
+      height: 546px;
+     width: 447px;
+     border-radius: 8px;
+     max-width: 524px;
+     margin-left:auto ;
+     margin-right: auto;
+
+    
+  }
+  .btn_submit{height: 48px;
+    width: 286px;
+    color: aliceblue;
+    border-radius: 8px;
+   background: #5C62EC;
+   margin-left: 24px;
+   margin-top: 24px;
+   @media (min-width: 992px) {
+    height: 48px;
+   width: 399px;
+   left: 24px;
+    top: 474px;
+   border-radius: 8px;
+padding: 16px, 8px, 16px, 8px;
+
+    }
+
+    .contact-form1{
+      height: 60px;
+     width: 280px;
+     left: 0px;
+     top: 36px;
+    border-radius: 8px;
+    padding: 16px, 20px, 16px, 20px;
+    @media (min-width: 992px) {
+      font-size: 60px;
+      align-items: center;
+    }
+
+    }
+    .campo_nome{
+      height: 60px;
+      width: 280px;
+      border-radius: 8px;
+     margin-left: 24px;
+     margin-top: 24px;
+     background: #1C1E22;
+     border-color:#FFFFFF;
+     @media (min-width: 992px) {
+      height: 60px;
+      width: 399px;
+      left: 0px;
+      top: 36px;
+      border-radius: 8px;
+      padding: 16px, 20px, 16px, 20px;
+
+      }
+    }
+     
+    }
+
+    .campo_email{
+      
+      height: 60px;
+      width: 280px;
+      border-radius: 8px;
+      margin-left: 24px;
+      margin-top: 24px;
+      background: #1C1E22;
+     border-color:#FFFFFF;
+     @media (min-width: 992px) {
+      height: 60px;
+      width: 399px;
+      left: 0px;
+      top: 36px;
+      border-radius: 8px;
+      padding: 16px, 20px, 16px, 20px;
+      
+     }
+    }
+
+    .msg{
+      height: 150px;
+      width: 280px;
+      border-radius: 8px;
+      margin-left: 24px;
+      background: #1C1E22;
+     border-color:#FFFFFF;
+     margin-top: 24px;
+     @media (min-width: 992px) {
+      height: 60px; 
+      width: 399px;
+      left: 0px;
+     top: 36px;
+     border-radius: 8px;
+     padding: 16px, 20px, 16px, 20px;
+
+     }
+    }
+    .word{
+      padding-top: 24px;
+      margin-top: 60px;
+      margin-left: 24px;
+      color: aliceblue;
+      line-height: 28px;
+      @media (min-width: 992px) {
+        font-size: 16px;
+        align-items: center;
+      }
+    }
+  }
