@@ -26,14 +26,11 @@
 }
 .text_des{
    flex-direction: column;
-   align-items: center;
-   justify-content: center;
     font-family: DM Sans;
     font-style: normal;
     font-size: 14px;
     color: aliceblue;
-    letter-spacing: 0.1px;
-    align-self: center;
+    text-align: center;
     @media (min-width: 992px) {
       font-size: 16px;
       align-items: center;
@@ -43,15 +40,15 @@
     
 }
   .text_intro{
-    height: 48px;
-    width: 328px;
     align-items: center;  
     margin-left: 16px;
-    margin-right: 16px;   
+    margin-right: 16px;  
+    text-align: center; 
     @media (min-width: 992px) {
       height: 20px;
       width: 706px;
       margin-left: 367px;
+      align-items: center;
 
     }
   }
